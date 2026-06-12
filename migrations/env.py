@@ -8,7 +8,7 @@ from sqlalchemy.ext.asyncio import async_engine_from_config
 from alembic import context
 
 # importing models
-from src.blogs.models import Blog
+from src.db.models import *
 
 # importing SQLModel
 from sqlmodel import SQLModel
