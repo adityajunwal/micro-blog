@@ -8,7 +8,7 @@ class Blog(BaseModel):
     title: str
     content: str
     created_at: datetime
-    update_at: datetime
+    updated_at: datetime
 
 class BlogCreateModel(BaseModel):
     title: str

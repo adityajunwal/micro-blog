@@ -19,4 +19,4 @@ class Blog(SQLModel, table=True):
     title: str
     content: str
     created_at: datetime = Field(sa_column=(Column(pg.TIMESTAMP, default=datetime.now())))
-    update_at: datetime = Field(sa_column=(Column(pg.TIMESTAMP, default=datetime.now())))
+    updated_at: datetime = Field(sa_column=(Column(pg.TIMESTAMP, default=datetime.now())))
